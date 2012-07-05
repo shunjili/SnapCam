@@ -15,6 +15,10 @@
 		08C4532215A3F3AE00E606BD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C4532115A3F3AE00E606BD /* AppDelegate.m */; };
 		08C4532515A3F3AE00E606BD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08C4532415A3F3AE00E606BD /* ViewController.m */; };
 		08C4532815A3F3AE00E606BD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08C4532615A3F3AE00E606BD /* ViewController.xib */; };
+		08C4533B15A3FF8700E606BD /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08C4533A15A3FF8700E606BD /* CoreFoundation.framework */; };
+		B0B08DBD15A4036500F69001 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B08DBC15A4036500F69001 /* CoreMedia.framework */; };
+		B0B08DBF15A4036B00F69001 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B08DBE15A4036B00F69001 /* AVFoundation.framework */; };
+		B0B08DC115A4037400F69001 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B08DC015A4037400F69001 /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +26,19 @@
 		08C4531115A3F3AE00E606BD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		08C4531315A3F3AE00E606BD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		08C4531515A3F3AE00E606BD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		08C4531915A3F3AE00E606BD /* MergeVideo_1.0-Info.plist */ = {isa = PBXFileReference; path = "MergeVideo_1.0-Info.plist"; sourceTree = "<group>"; };
+		08C4531915A3F3AE00E606BD /* MergeVideo_1.0-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MergeVideo_1.0-Info.plist"; sourceTree = "<group>"; };
 		08C4531B15A3F3AE00E606BD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		08C4531D15A3F3AE00E606BD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		08C4531F15A3F3AE00E606BD /* MergeVideo_1.0-Prefix.pch */ = {isa = PBXFileReference; path = "MergeVideo_1.0-Prefix.pch"; sourceTree = "<group>"; };
-		08C4532015A3F3AE00E606BD /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		08C4531F15A3F3AE00E606BD /* MergeVideo_1.0-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MergeVideo_1.0-Prefix.pch"; sourceTree = "<group>"; };
+		08C4532015A3F3AE00E606BD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		08C4532115A3F3AE00E606BD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		08C4532315A3F3AE00E606BD /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		08C4532315A3F3AE00E606BD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		08C4532415A3F3AE00E606BD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		08C4532715A3F3AE00E606BD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		08C4533A15A3FF8700E606BD /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		B0B08DBC15A4036500F69001 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B0B08DBE15A4036B00F69001 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B0B08DC015A4037400F69001 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +46,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0B08DC115A4037400F69001 /* AssetsLibrary.framework in Frameworks */,
+				B0B08DBF15A4036B00F69001 /* AVFoundation.framework in Frameworks */,
+				B0B08DBD15A4036500F69001 /* CoreMedia.framework in Frameworks */,
+				08C4533B15A3FF8700E606BD /* CoreFoundation.framework in Frameworks */,
 				08C4531215A3F3AE00E606BD /* UIKit.framework in Frameworks */,
 				08C4531415A3F3AE00E606BD /* Foundation.framework in Frameworks */,
 				08C4531615A3F3AE00E606BD /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +79,10 @@
 		08C4531015A3F3AE00E606BD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B0B08DC015A4037400F69001 /* AssetsLibrary.framework */,
+				B0B08DBE15A4036B00F69001 /* AVFoundation.framework */,
+				B0B08DBC15A4036500F69001 /* CoreMedia.framework */,
+				08C4533A15A3FF8700E606BD /* CoreFoundation.framework */,
 				08C4531115A3F3AE00E606BD /* UIKit.framework */,
 				08C4531315A3F3AE00E606BD /* Foundation.framework */,
 				08C4531515A3F3AE00E606BD /* CoreGraphics.framework */,
@@ -236,6 +252,10 @@
 		08C4532C15A3F3AE00E606BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MergeVideo_1.0/MergeVideo_1.0-Prefix.pch";
 				INFOPLIST_FILE = "MergeVideo_1.0/MergeVideo_1.0-Info.plist";
@@ -247,6 +267,10 @@
 		08C4532D15A3F3AE00E606BD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MergeVideo_1.0/MergeVideo_1.0-Prefix.pch";
 				INFOPLIST_FILE = "MergeVideo_1.0/MergeVideo_1.0-Info.plist";
@@ -274,6 +298,7 @@
 				08C4532D15A3F3AE00E606BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
